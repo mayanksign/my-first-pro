@@ -65,9 +65,10 @@ class BooksController extends Controller
         return response()->json([
             'info'=>true,
             'msg'=>'done'
-        ],200);
+        ],200); echo "hi";
     }
- 
+    
+
     /**
      * Display the specified resource.
      *
